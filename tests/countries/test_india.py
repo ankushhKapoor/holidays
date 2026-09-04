@@ -1034,21 +1034,51 @@ class TestIndia(CommonCountryTests, TestCase):
         )
         self.assertOptionalIslamicNoEstimatedHolidayName(name, self.full_range)
 
-    # Christian holidays.
+    def test_u_soso_thama_death_anniversary(self):
+        name = "U Soso Thama's Death Anniversary"
+        self.assertNoHolidayName(name)
+        self.assertSubdivMlGovernmentHolidayName(
+            name, (f"{year}-12-18" for year in self.full_range)
+        )
 
     def test_christmas_eve(self):
         name = "Christmas Eve"
+        name_festival = "Christmas Festival"
         self.assertNoHolidayName(name)
+        self.assertNoHolidayName(name_festival)
         self.assertOptionalHolidayName(
             name, (f"{year}-12-24" for year in range(2003, self.end_year))
         )
         self.assertNoOptionalHolidayName(name, range(self.start_year, 2003))
+        self.assertSubdivMlGovernmentHolidayName(
+            name_festival, (f"{year}-12-24" for year in self.full_range)
+        )
 
     def test_christmas_day_two(self):
         name = "Post Christmas"
+        name_festival = "Christmas Festival"
         self.assertNoHolidayName(name)
-        self.assertOptionalHolidayName(name, (f"{year}-12-26" for year in self.full_range))
-        self.assertNoOptionalHolidayName(name, range(self.start_year, 2003))
+        self.assertNoHolidayName(name_festival)
+        self.assertSubdivMlGovernmentHolidayName(
+            name_festival, (f"{year}-12-26" for year in self.full_range)
+        )
+        self.assertMnOptionalHolidayName(
+            name_festival, (f"{year}-12-26" for year in self.full_range)
+        )
+
+    def test_christmas_day_three(self):
+        name_festival = "Christmas Festival"
+        self.assertNoHolidayName(name_festival)
+        self.assertSubdivMlGovernmentHolidayName(
+            name_festival, (f"{year}-12-27" for year in self.full_range)
+        )
+
+    def test_u_kiang_nongbah_death_anniversary(self):
+        name = "U Kiang Nongbah Death Anniversary"
+        self.assertNoHolidayName(name)
+        self.assertSubdivMlGovernmentHolidayName(
+            name, (f"{year}-12-30" for year in self.full_range)
+        )
 
     def test_easter_sunday(self):
         name = "Easter Sunday"
@@ -1676,6 +1706,13 @@ class TestIndia(CommonCountryTests, TestCase):
         )
         self._assertHinduHolidayHelper("Guru Purnima", dts, category=OPTIONAL, subdivs={"MP"})
 
+    def test_u_tirot_sing_death_anniversary(self):
+        name = "U Tirot Sing's Death Anniversary"
+        self.assertNoHolidayName(name)
+        self.assertSubdivMlGovernmentHolidayName(
+            name, {f"{year}-07-21" for year in self.full_range}
+        )
+
     def test_hareli(self):
         name = "Hareli"
         dts = (
@@ -1955,6 +1992,7 @@ class TestIndia(CommonCountryTests, TestCase):
         name = "All Souls' Day"
         self.assertNoHolidayName(name)
         self.assertSubdivGaOptionalHolidayName(name, (f"{year}-11-02" for year in self.full_range))
+        self.assertSubdivMlOptionalHolidayName(name, (f"{year}-11-02" for year in self.full_range))
 
     def test_jharkhand_formation_day(self):
         name = "Jharkhand Formation Day"
@@ -1988,6 +2026,13 @@ class TestIndia(CommonCountryTests, TestCase):
                 self.assertNoHolidayName(name, holidays)
         self.assertSubdivUpOptionalHolidayName(
             name_uda_devi_shaheedi_diwas, (f"{year}-11-16" for year in self.full_range)
+        )
+
+    def test_seng_kut_snem(self):
+        name = "Seng Kut Snem"
+        self.assertNoHolidayName(name)
+        self.assertSubdivMlGovernmentHolidayName(
+            name, (f"{year}-11-23" for year in self.full_range)
         )
 
     def test_nagaland_state_inauguration_day(self):
@@ -2118,6 +2163,7 @@ class TestIndia(CommonCountryTests, TestCase):
             "2025-11-07",
         )
         self._assertHinduHolidayHelper("Wangala Festival", dts, category=OPTIONAL, subdivs={"AS"})
+        self.assertSubdivMlGovernmentHolidayName("Wangala Festival", dts)
 
     def test_shaheed_veer_narayan_singh_jayanti(self):
         name = "Shaheed Veer Narayan Singh's Shaheedi Diwas"
