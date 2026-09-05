@@ -17,7 +17,7 @@ msgstr ""
 "Project-Id-Version: Holidays 0.104\n"
 "Report-Msgid-Bugs-To: l10n@vacanza.dev\n"
 "POT-Creation-Date: 2026-02-09 12:14+0530\n"
-"PO-Revision-Date: 2026-09-03 14:40+0530\n"
+"PO-Revision-Date: 2026-09-06 01:14+0530\n"
 "Last-Translator: Ankush Kapoor <work.ankushkapoor1626@gmail.com>\n"
 "Language-Team: Holidays Localization Team\n"
 "Language: ta\n"
@@ -755,6 +755,10 @@ msgstr "மிசோ ஹ்மெய்சே இன்சுயிகாம் 
 #. Zomi Namni.
 msgid "Zomi Namni"
 msgstr "சோமி நாம்னி"
+
+#. Post Christmas (Day 3).
+msgid "Post Christmas (Day 3)"
+msgstr "கிறிஸ்துமஸுக்குப் பிந்தைய நாள் (நாள் 3)"
 
 #. Post Christmas (Day 4).
 msgid "Post Christmas (Day 4)"

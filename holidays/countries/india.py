@@ -1376,6 +1376,9 @@ class India(
         # Zomi Namni.
         self._add_holiday_feb_20(tr("Zomi Namni"))
 
+        # Post Christmas (Day 3).
+        self._add_christmas_day_three(tr("Post Christmas (Day 3)"))
+
         # Post Christmas (Day 4).
         self._add_christmas_day_four(tr("Post Christmas (Day 4)"))
 
