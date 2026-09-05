@@ -17,7 +17,7 @@ msgstr ""
 "Project-Id-Version: Holidays 0.104\n"
 "Report-Msgid-Bugs-To: l10n@vacanza.dev\n"
 "POT-Creation-Date: 2026-03-23 14:20+0530\n"
-"PO-Revision-Date: 2026-09-06 01:58+0530\n"
+"PO-Revision-Date: 2026-09-06 02:34+0530\n"
 "Last-Translator: Ankush Kapoor <work.ankushkapoor1626@gmail.com>\n"
 "Language-Team: Holidays Localization Team\n"
 "Language: ml\n"
@@ -727,6 +727,10 @@ msgstr "പാ ടോഗൻ നെങ്മിൻജ സംഗ്മയുടെ
 #. U Soso Thama's Death Anniversary.
 msgid "U Soso Thama's Death Anniversary"
 msgstr "യു സോസോ തമയുടെ ചരമവാർഷികം"
+
+#. Christmas Festival.
+msgid "Christmas Festival"
+msgstr "ക്രിസ്മസ് ഉത്സവം"
 
 #. U Kiang Nongbah Death Anniversary.
 msgid "U Kiang Nongbah Death Anniversary"

@@ -1328,7 +1328,7 @@ class India(
         self._add_holiday_dec_18(tr("U Soso Thama's Death Anniversary"))
 
         # Christmas Festival.
-        name = "Christmas Festival"
+        name = tr("Christmas Festival")
         self._add_christmas_eve(name)
         self._add_christmas_day_two(name)
         self._add_christmas_day_three(name)
