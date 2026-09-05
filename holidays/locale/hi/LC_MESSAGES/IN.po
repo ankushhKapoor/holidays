@@ -17,7 +17,7 @@ msgstr ""
 "Project-Id-Version: Holidays 0.104\n"
 "Report-Msgid-Bugs-To: l10n@vacanza.dev\n"
 "POT-Creation-Date: 2025-02-28 01:24+0530\n"
-"PO-Revision-Date: 2026-09-06 01:14+0530\n"
+"PO-Revision-Date: 2026-09-06 01:58+0530\n"
 "Last-Translator: Ankush Kapoor <work.ankushkapoor1626@gmail.com>\n"
 "Language-Team: Holidays Localization Team\n"
 "Language: hi\n"
@@ -334,7 +334,7 @@ msgid "Lingri Niki Sii Donyi Polo Yullo"
 msgstr "लिंगरी निकी सी डोनी पोलो युल्लो"
 
 #. Netaji Subhas Chandra Bose's Birthday.
-msgid "Netaji Subhas Chandra Bose Jayanti"
+msgid "Netaji Subhas Chandra Bose's Jayanti"
 msgstr "नेताजी सुभाष चंद्र बोस जयंती"
 
 #. May Day.
@@ -673,8 +673,8 @@ msgstr "तुलसीदास जयंती"
 msgid "Dol Gyaras"
 msgstr "डोल ग्यारस"
 
-#. Chhatrapati Shivaji Maharaj Jayanti.
-msgid "Chhatrapati Shivaji Maharaj Jayanti"
+#. Chhatrapati Shivaji Maharaj's Birthday.
+msgid "Chhatrapati Shivaji Maharaj's Jayanti"
 msgstr "छत्रपति शिवाजी महाराज जयंती"
 
 #. Maharashtra Day.
@@ -856,10 +856,6 @@ msgstr "बोनालु"
 #. Bathukamma.
 msgid "Bathukamma"
 msgstr "बथुकम्मा"
-
-#. Netaji Subhas Chandra Bose's Birthday.
-msgid "Netaji Subhas Chandra Bose's Jayanti"
-msgstr "नेताजी सुभाष चंद्र बोस जयंती"
 
 #. Maharaja Bir Bikram Kishore Manikya Bahadur's Birthday.
 msgid "Maharaja Bir Bikram Kishore Manikya Bahadur's Jayanti"

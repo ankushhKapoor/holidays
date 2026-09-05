@@ -600,7 +600,7 @@ class India(
     # Assam.
     def _populate_subdiv_as_public_holidays(self):
         # Netaji Subhas Chandra Bose's Birthday.
-        self._add_holiday_jan_23(tr("Netaji Subhas Chandra Bose Jayanti"))
+        self._add_holiday_jan_23(tr("Netaji Subhas Chandra Bose's Jayanti"))
 
         # May Day.
         self._add_labor_day(tr("May Day"))
@@ -713,7 +713,7 @@ class India(
         self._add_holiday_jan_20(tr("Gend Singh's Shaheedi Diwas"))
 
         # Netaji Subhas Chandra Bose's Birthday.
-        self._add_holiday_jan_23(tr("Netaji Subhas Chandra Bose Jayanti"))
+        self._add_holiday_jan_23(tr("Netaji Subhas Chandra Bose's Jayanti"))
 
         # Veerangana Avantibai's Martyrdom Day.
         self._add_holiday_mar_20(tr("Veerangana Avantibai's Shaheedi Diwas"))
@@ -1232,8 +1232,8 @@ class India(
 
     # Maharashtra.
     def _populate_subdiv_mh_public_holidays(self):
-        # Chhatrapati Shivaji Maharaj Jayanti.
-        self._add_holiday_feb_19(tr("Chhatrapati Shivaji Maharaj Jayanti"))
+        # Chhatrapati Shivaji Maharaj's Birthday.
+        self._add_holiday_feb_19(tr("Chhatrapati Shivaji Maharaj's Jayanti"))
 
         # Maharashtra Day.
         self._add_holiday_may_1(tr("Maharashtra Day"))
